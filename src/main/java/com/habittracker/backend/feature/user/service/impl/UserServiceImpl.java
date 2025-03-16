@@ -11,7 +11,7 @@ import com.habittracker.backend.feature.user.service.UserService;
 import com.habittracker.backend.feature.user.validation.PasswordConstraintValidator;
 import com.habittracker.backend.feature.user.model.Language;
 import com.habittracker.backend.feature.user.model.UserDTO;
-import com.habittracker.backend.feature.user.persistence.User;
+import com.habittracker.backend.feature.user.model.User;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;

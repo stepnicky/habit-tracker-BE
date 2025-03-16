@@ -1,7 +1,7 @@
 package com.habittracker.backend.feature.user.service;
 
 import com.habittracker.backend.feature.user.model.UserDTO;
-import com.habittracker.backend.feature.user.persistence.User;
+import com.habittracker.backend.feature.user.model.User;
 
 import java.util.List;
 

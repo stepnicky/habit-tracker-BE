@@ -1,6 +1,6 @@
 package com.habittracker.backend.auth.service;
 
-import com.habittracker.backend.feature.user.persistence.User;
+import com.habittracker.backend.feature.user.model.User;
 import java.util.UUID;
 
 public interface RefreshTokenService {

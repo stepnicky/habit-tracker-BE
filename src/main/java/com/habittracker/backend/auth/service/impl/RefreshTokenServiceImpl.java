@@ -4,7 +4,7 @@ import com.habittracker.backend.auth.exception.InvalidOrMissingRefreshTokenExcep
 import com.habittracker.backend.auth.model.RefreshToken;
 import com.habittracker.backend.auth.persistence.RefreshTokenRepository;
 import com.habittracker.backend.auth.service.RefreshTokenService;
-import com.habittracker.backend.feature.user.persistence.User;
+import com.habittracker.backend.feature.user.model.User;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;

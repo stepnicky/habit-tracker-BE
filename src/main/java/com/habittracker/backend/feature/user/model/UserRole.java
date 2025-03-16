@@ -1,4 +1,4 @@
-package com.habittracker.backend.feature.user.persistence;
+package com.habittracker.backend.feature.user.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,7 +1,6 @@
-package com.habittracker.backend.feature.user.persistence;
+package com.habittracker.backend.feature.user.model;
 
 import com.habittracker.backend.feature.group.model.GroupMember;
-import com.habittracker.backend.feature.user.model.Language;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

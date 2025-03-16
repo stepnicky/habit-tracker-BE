@@ -1,6 +1,10 @@
 package com.habittracker.backend.feature.group.model;
 
-public record GroupMemberDTO(Long userId,
-                             String username,
-                             GroupRole role) {
+import com.habittracker.backend.feature.user.model.UserDTO;
+
+import java.util.UUID;
+
+public record GroupMemberDTO(UserDTO user,
+                             GroupRole role,
+                             UUID groupId) {
 }

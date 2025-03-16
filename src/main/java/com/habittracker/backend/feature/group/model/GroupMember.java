@@ -1,6 +1,6 @@
 package com.habittracker.backend.feature.group.model;
 
-import com.habittracker.backend.feature.user.persistence.User;
+import com.habittracker.backend.feature.user.model.User;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -8,13 +8,14 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.Table;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+
+import java.util.UUID;
 
 @Entity
 @Table(name = "group_members")
@@ -25,7 +26,7 @@ import lombok.Setter;
 public class GroupMember {
     @Id
     @GeneratedValue
-    private Long UUID;
+    private UUID id;
 
     @ManyToOne
     @JoinColumn(name = "group_id", nullable = false)
