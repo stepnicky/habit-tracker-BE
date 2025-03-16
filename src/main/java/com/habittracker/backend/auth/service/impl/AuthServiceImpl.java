@@ -1,6 +1,6 @@
 package com.habittracker.backend.auth.service.impl;
 
-import com.habittracker.backend.user.model.Language;
+import com.habittracker.backend.feature.user.model.Language;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,8 +15,8 @@ import com.habittracker.backend.auth.model.AuthResponse;
 import com.habittracker.backend.auth.service.AuthService;
 import com.habittracker.backend.auth.service.JwtUtilsService;
 import com.habittracker.backend.auth.service.RefreshTokenService;
-import com.habittracker.backend.user.persistence.User;
-import com.habittracker.backend.user.service.UserService;
+import com.habittracker.backend.feature.user.model.User;
+import com.habittracker.backend.feature.user.service.UserService;
 
 import java.util.UUID;
 

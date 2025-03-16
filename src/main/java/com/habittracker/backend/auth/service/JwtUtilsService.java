@@ -1,6 +1,6 @@
 package com.habittracker.backend.auth.service;
 
-import com.habittracker.backend.user.persistence.User;
+import com.habittracker.backend.feature.user.model.User;
 
 public interface JwtUtilsService {
 

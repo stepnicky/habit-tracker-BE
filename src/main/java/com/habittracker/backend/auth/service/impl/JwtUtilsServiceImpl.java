@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.stereotype.Service;
 import com.habittracker.backend.auth.service.JwtUtilsService;
-import com.habittracker.backend.user.persistence.User;
+import com.habittracker.backend.feature.user.model.User;
 
 import java.security.Key;
 import java.util.Date;
