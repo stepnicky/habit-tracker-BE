@@ -1,6 +1,6 @@
 package com.habittracker.backend.auth.model;
 
-import com.habittracker.backend.user.persistence.User;
+import com.habittracker.backend.feature.user.persistence.User;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ForeignKey;
